@@ -34,7 +34,7 @@ The codebase compares different variants of stochastic simulation algorithms in 
 
 ---
 
-##References
+## References
 
 * **[1]** Heath Dimsey, Larry Forbes, and Andrew Bassom. *"The BROCODE model: A novel mathematical model for the Briggs-Rauscher reaction"*. Journal of Mathematical Chemistry, 63 (May 2025), pp. 1806–1825. DOI: [10.21203/rs.3.rs-6765229/v1](https://doi.org/10.21203/rs.3.rs-6765229/v1).
 * **[2]** L. Marchetti,Corrado Priami, Vo Hong
