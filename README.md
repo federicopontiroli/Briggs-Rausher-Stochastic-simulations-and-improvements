@@ -30,7 +30,7 @@ The codebase compares different variants of stochastic simulation algorithms in 
 * `src/models/`: Contains the definitions of kinetic models and reactant/product stoichiometric matrices (`vMinusBRr`, `vPlusBRr`).
 * `src/utils/`: Utility functions such as `dependencygraph.m` (to map structural dependencies between reactions for optimized solvers) and `generateStochasticrates.m` (to convert deterministic rate constants into stochastic propensities).
 * `scripts/benchmarks.m`: Script used to benchmark the computational performance of the algorithms (utilizes `parfor` loops for parallel simulation execution).
-* `scripts/diagnostic.m`: Numerical diagnostic analysis tracking NRM simulation parameters (inter-event time steps $\Delta t$, Tau gaps, and maximum propensities).
+
 
 ---
 
