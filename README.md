@@ -27,9 +27,9 @@ The codebase compares different variants of stochastic simulation algorithms in 
 * **RSSA / RSSA_dep** (Rejection Stochastic Simulation Algorithm optimized using a dependency graph)
 
 ### Directory Structure
-* `src/models/`: Contains the definitions of kinetic models and reactant/product stoichiometric matrices (`vMinusBRr`, `vPlusBRr`).
-* `src/utils/`: Utility functions such as `dependencygraph.m` (to map structural dependencies between reactions for optimized solvers) and `generateStochasticrates.m` (to convert deterministic rate constants into stochastic propensities).
-* `scripts/benchmarks.m`: Script used to benchmark the computational performance of the algorithms (utilizes `parfor` loops for parallel simulation execution).
+* models: Contains the definitions of kinetic models and reactant/product stoichiometric matrices (`vMinusBRr`, `vPlusBRr`).
+* utils: Utility functions such as simulations algorithms, `dependencygraph.m` (to map structural dependencies between reactions for optimized solvers) and `generateStochasticrates.m` (to convert deterministic rate constants into stochastic propensities).
+* benchmarks: Script used to benchmark the computational performance of the algorithms (utilizes `parfor` loops for parallel simulation execution).
 
 
 ---
